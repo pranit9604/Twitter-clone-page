@@ -1,0 +1,34 @@
+form {
+    margin: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .tweet-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tweet-info span{
+    font-size: 14px;
+    color: #657786;
+
+  }
+  
+  button {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+button:disabled{
+  background-color: #aab8c2;
+  cursor: not-allowed;
+}
